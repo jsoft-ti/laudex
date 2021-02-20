@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Laudex">
+        <activity android:name=".ui.laudos.AddLaudoActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name">
