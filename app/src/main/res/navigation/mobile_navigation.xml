@@ -3,23 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@id/navigation_laudos">
 
     <fragment
-        android:id="@+id/navigation_home"
-        android:name="br.com.laudex.ui.home.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
-
+        android:id="@+id/navigation_fotos"
+        android:name="br.com.laudex.ui.fotosrecentes.FotosFragment"
+        android:label="Fotos"
+        tools:layout="@layout/fotos_fragment" />
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="br.com.laudex.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
-
+        android:id="@+id/navigation_ajuda"
+        android:name="br.com.laudex.ui.ajuda.AjudaFragment"
+        android:label="Ajuda"
+        tools:layout="@layout/fragment_ajuda" />
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="br.com.laudex.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_laudos"
+        android:name="br.com.laudex.ui.laudos.LaudosFragment"
+        android:label="Meus Laudos"
+        tools:layout="@layout/laudos_fragment" />
 </navigation>
