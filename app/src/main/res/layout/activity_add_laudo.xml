@@ -18,7 +18,7 @@
             android:text="Título" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/txtTitulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -31,7 +31,7 @@
             android:text="Endereço" />
 
         <EditText
-            android:id="@+id/editTextTextPostalAddress"
+            android:id="@+id/txtEndereco"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -44,7 +44,7 @@
             android:text="Cidade" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName2"
+            android:id="@+id/txtCidade"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -57,9 +57,10 @@
             android:text="Estado" />
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spEstado"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:entries="@array/uf" />
 
         <TextView
             android:id="@+id/textView7"
@@ -68,7 +69,7 @@
             android:text="Cep" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/txtCep"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -81,7 +82,7 @@
             android:text="Descriçao" />
 
         <EditText
-            android:id="@+id/editTextTextMultiLine2"
+            android:id="@+id/txtDescricao"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -89,7 +90,7 @@
             android:inputType="textMultiLine" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnCadastrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Cadastrar" />

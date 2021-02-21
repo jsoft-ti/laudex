@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="uf">
+        <item>São Paulo</item>
+        <item>Rio de janeiro</item>
+        <item>Minas Gerais</item>
+        <item>Espírito Santo</item>
+    </array>
+</resources>
